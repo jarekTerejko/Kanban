@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    height: 99vh;
+    background-image: url(https://static.pexels.com/photos/220116/pexels-photo-220116.jpeg);
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.ui-sortable {
+    min-height: 80px;
+}
+
+.btn-delete {
+    margin: 3px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    border: none;
+    background-color: #c0392b;
+    color: white;
+    border-radius: 3px;
+}
+
+.btn-delete:hover {
+    background-color: #e74c3c;
+    cursor: pointer;
+}
+
+/* BOARD */
+
+.board h1 {
+    margin-left: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/* COLUMN */
+
+.column {
+    order: 1;
+    min-width: 300px;
+    min-height: 50vh;
+    background-color: #2980b9;
+    margin-left: 8px;
+    list-style: none;
+    position: relative;
+    border-radius: 5px;
+}
+
+.create-column {
+    margin: 8px;
+    border: none;
+    padding: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.create-column:hover {
+    background-color: #2ecc71;
+    cursor: pointer;
+}
+
+.column-add-card {
+    color: #fff;
+    cursor: pointer;
+    margin: 8px 5px;
+    display: block;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: #f39c12;
+}
+
+.column-add-card:hover {
+    background-color: #f1c40f;
+}
+
+/* STYLE KARTY */
+
+.card {
+    box-sizing: border-box;
+    display: block;
+    height: 60px;
+    margin-bottom: 5px;
+    padding: 4px;
+    background-color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-list {
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+}
+
+.card-description {
+    margin: 2px 0;
+}
+
+.card-placeholder {
+    box-sizing: border-box;
+    display: block;
+    height: 60px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    background-color: lightblue;
+}
