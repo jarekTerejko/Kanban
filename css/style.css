@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&subset=latin-ext');
+
 body {
+    padding: 0;
     margin: 0;
-    height: 99vh;
-    background-image: url(https://static.pexels.com/photos/220116/pexels-photo-220116.jpeg);
-    background-position: center center;
-    background-size: cover;
+    background-color: #34495e;
     color: #fff;
-    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
 }
 
 * {
